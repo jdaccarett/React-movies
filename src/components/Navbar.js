@@ -30,10 +30,10 @@ const Navbar = props => {
 };
 
 Navbar.propTypes = {
-  filterAlphabetically: PropTypes.func,
-  filterByReleaseData: PropTypes.func,
-  filterStarwars: PropTypes.func,
-  filterbyMarvel: PropTypes.func
+  filterAlphabetically: PropTypes.func.isRequired,
+  filterByReleaseData: PropTypes.func.isRequired,
+  filterStarwars: PropTypes.func.isRequired,
+  filterbyMarvel: PropTypes.func.isRequired
 };
 
 export default Navbar;

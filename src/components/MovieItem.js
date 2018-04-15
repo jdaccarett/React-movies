@@ -56,11 +56,13 @@ class MovieItem extends Component {
 }
 
 MovieItem.propTypes = {
-  poster: PropTypes.string,
-  released: PropTypes.string,
-  title: PropTypes.string,
-  trailerID: PropTypes.string,
-  universe: PropTypes.string
+  movie: shape({
+    poster: PropTypes.string.isRequired,
+    released: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    trailerID: PropTypes.string.isRequired,
+    universe: PropTypes.string.isRequired
+  }).isRequired
 };
 
 export default MovieItem;

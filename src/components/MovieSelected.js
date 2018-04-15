@@ -24,8 +24,8 @@ const MovieSelected = props => {
 };
 
 MovieSelected.propTypes = {
-  title: PropTypes.string,
-  trailerID: PropTypes.string
+  title: PropTypes.string.isRequired,
+  trailerID: PropTypes.string.isRequired
 };
 
 export default MovieSelected;
