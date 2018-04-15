@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import MovieSelected from "./MovieSelected";
-import PropTypes from "prop-types";
+import PropTypes, { shape } from "prop-types";
 
 /**
  * Handles popup of trailer once the "view trailer button is clicked".
