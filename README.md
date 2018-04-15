@@ -1,4 +1,4 @@
-##Movie Library Application Created with React.
+## Movie Library Application Created with React.
 
 Functionality:
 - Filter By Date
