@@ -1,0 +1,59 @@
+.movieList {
+  width: 100vw;
+  overflow: scroll;
+  padding-top: 13rem;
+  @include respond(phone) {
+    padding-top: 20rem;
+  }
+
+  background-color: $color-white;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
+  &__item {
+    width: 300px;
+    height: 400px;
+    background-color: #b33939;
+    margin: 1rem;
+    border-radius: 2px;
+    font-size: 1.4rem;
+
+    text-align: center;
+
+    -webkit-box-shadow: 1px 1px 13px 0px rgba(50, 50, 50, 0.59);
+    -moz-box-shadow: 1px 1px 13px 0px rgba(50, 50, 50, 0.59);
+    box-shadow: 1px 1px 13px 0px rgba(50, 50, 50, 0.59);
+
+    &-movieName {
+      padding-top: 10px;
+      text-align: center;
+      text-align: center;
+      height: 12%;
+      width: 100%;
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: $color-white;
+      font-size: 1.8rem;
+      span {
+        margin-left: 1rem;
+      }
+    }
+
+    &-date {
+      font-size: 1.4rem;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+  }
+
+  a {
+    border-radius: 2px;
+  }
+
+  img {
+    border-radius: 2px;
+    height: 250px;
+  }
+}
